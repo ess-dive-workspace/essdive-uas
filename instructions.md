@@ -12,7 +12,7 @@ A data package containing UAS data should include the following:
 
 5. Data products identified by processing level. Data from one or more processing levels may be included.
 
-6. For submission to ESS-DIVE, data packages should include the csv data description file (found [here](https://github.com/ess-dive-community/essdive-uas/blob/main/templates/UAS_CSV_dd.csv) in Templates), and a [file-level metadata file (FLMD)](https://github.com/ess-dive-community/essdive-file-level-metadata). Within the FLMD file, the _standard_ for each reporting format file should be **"ESS-DIVE UAS v1"**. ESS-DIVE dataset submissions also require a keyword in the dataset metadata to identify the reporting format. Please add the keyword **"ESS-DIVE Unoccupied Aerial Systems (UAS) Reporting Format"** to this field. 
+6. For submission to ESS-DIVE, data packages should include the csv data description file (found [here](templates/UAS_CSV_dd.csv) in Templates), and a [file-level metadata file (FLMD)](https://github.com/ess-dive-workspace/essdive-file-level-metadata). Within the FLMD file, the _standard_ for each reporting format file should be **"ESS-DIVE UAS v1"**. ESS-DIVE dataset submissions also require a keyword in the dataset metadata to identify the reporting format. Please add the keyword **"ESS-DIVE Unoccupied Aerial Systems (UAS) Reporting Format"** to this field. 
 
 See the individual pages for each metadata type for variable names, requirement levels (i.e. required, recommended, optional) and full descriptions. Templates are provided for each metadata category. 
 
@@ -25,9 +25,9 @@ UAS platform and sensor technologies are rapidly evolving. Inclusion of addition
 The content of this UAS data and metadata reporting format is limited to guidance specific to UAS data, platforms and sensors. It is recommend that data be prepared following recommendations from [EPSG](https://spatialreference.org/ref/epsg/) for spatial reference systems and [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) for dates and times. 
 
 ## Use of this format with other ESS-DIVE reporting formats
-The [ESS-DIVE collection of reporting formats](https://github.com/ess-dive-community) includes formats for different measurement types and also for file and metadata structures. The collection is designed to be modular, so use of multiple reporting formats will be required to correctly format a data package. 
+The [ESS-DIVE collection of reporting formats](https://github.com/ess-dive-workspace) includes formats for different measurement types and also for file and metadata structures. The collection is designed to be modular, so use of multiple reporting formats will be required to correctly format a data package. 
 
-Refer to the [ESS-DIVE Community Space](https://github.com/ess-dive-community) for a complete list of available reporting formats. 
+Refer to the [ESS-DIVE Workspace](https://github.com/ess-dive-workspace) for a complete list of available reporting formats. 
 
 ## Example data package
 Here is an example data package that follows an early version of these reporting format guidelines. This will be updated when a data package following the completed guidelines becomes available.
