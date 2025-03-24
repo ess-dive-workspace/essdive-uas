@@ -1,14 +1,17 @@
-# ESS-DIVE Unoccupied Aerial Systems (UAS) Reporting Format v 1.0.0
+# ESS-DIVE Unoccupied Aerial Systems (UAS) Reporting Format v1.0.1
 
 ## About the reporting format
 This reporting format provides metadata requirements and format guidelines for uploading data from small (≤ 25 kg) Unoccupied Aerial Systems (UASs) to the ESS-DIVE archive. This includes basic recording of core flight data (e.g. telemetry), when available, and primary flight metadata (e.g. flight location, flight paths, altitude, date, start/end time), basic UAS payload and instrumentation information (e.g. camera make and model), and the general data product and file metadata needed for interpreting and accessing derived UAS datasets (e.g. pixel resolution, spatial reference system). Templates are provided to enable rapid compilation of metadata. Data products are classfied into processing levels, and recommendations are given for file naming. 
 
 ## Instructions
-See the [Instructions](https://github.com/ess-dive-community/essdive-uas/blob/main/instructions.md) for how to use the format. 
+See the [Instructions](instructions.md) for how to use the format. 
 Parts 1-4 provide guidance and templates for metadata associated with the campaign, platform, flights and sensors. Part 5 describes examples of UAS data products classified as product Levels depending on the degree of processing. 
 
+## Updates in v1.0.1
+In March 2025, a patch version of the UAS reporting format was made to improve the overall experience with the associated reporting format documentation.
+
 ## How to contribute
-Comments, questions and suggestions for improvement of this reporting format and documentation may be made by opening an [Issue](https://github.com/ess-dive-community/essdive-uas/issues). We also encourage contributors to make use of the [Discussions](https://github.com/ess-dive-community/essdive-uas/discussions).   
+Comments, questions and suggestions for improvement of this reporting format and documentation may be made by opening an [Issue](https://github.com/ess-dive-workspace/essdive-uas/issues). We also encourage contributors to make use of the [Discussions](https://github.com/ess-dive-workspace/essdive-uas/discussions).   
 
 ## Recommended citation
 Ely KS; Yang D; Serbin SP (2023). ESS-DIVE Unoccupied Aerial Systems (UAS) Reporting Format v1. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/2204420
